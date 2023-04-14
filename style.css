@@ -912,6 +912,14 @@ body {
     
     /* works */
 
+    .works {
+        padding: 40px 0;
+    }
+
+    .works__wrapper {
+        margin-bottom: 20px;
+    }
+
     .works__item {
         width: 100%;
         text-align: center;
@@ -930,6 +938,10 @@ body {
     }
 
     /* about */
+
+    .about {
+        padding: 0;
+    }
 
     .about__wrapper {
         flex-direction: column;
@@ -967,12 +979,22 @@ body {
 
     /* team */
 
+    .team {
+        padding: 40px 0;
+    }
+
     .team__text {
         font-size: 20px;
     }
 
     .btn--team {
         margin: 0 auto;
+    }
+
+    /* footer */
+
+    .footer {
+        padding: 0;
     }
 
 } 
