@@ -862,7 +862,22 @@ body {
         margin-left: 0;
     }
 
+    /* intro */
+
+    .intro__content {
+        padding: 60px 0;
+    }
+
+    .intro__content-inner p {
+        font-size: 9px;
+    }
+
     /* btn */
+
+    .intro__background1,
+    .intro__background2 {
+        height: 55vh;
+    }
 
     .intro__btn {
         display: flex;
@@ -892,6 +907,7 @@ body {
         max-width: 145px;
         width: 100%;
         margin: 0;
+        border: none;
     }
     
     /* works */
