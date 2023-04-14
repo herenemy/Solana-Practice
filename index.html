@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <title>Solana</title>
 </head>
 <body>
@@ -28,6 +29,8 @@
                 </ul>
             </nav>
 
+            <div class="burger"><span class="burger__item"></span></div>
+
         </div>
     </div>
 </header>
@@ -41,8 +44,10 @@
                 <img class="intro__background2" src="images/background/intro-bg2.png" alt="">
                 <h1 class="intro__title">Powerful for developers. Fast for everyone.</h1>
                 <p class="intro__text">Bring blockchain to the people. Solana supports experiences for power users, new consumers, and everyone in between.</p>
-                <a class="btn  btn--default" href="#">Start building</a>
-                <a class="btn  btn--intro" href="#">Read docs</a>
+                <div class="intro__btn">
+                    <a class="btn  btn--default" href="#">Start building</a>
+                    <a class="btn  btn--intro" href="#">Read docs</a>
+                </div>
             </div>
             <div class="intro__content-inner">
                 <p>Powering tools and integrations from companies all around the world</p>
@@ -93,7 +98,7 @@
                 <h2 class="container__title">Made of mass adoption</h2>
                 <div class="live__data">live data</div>
             </div>
-            <div class="works__item">
+            <div class="works__item  works__item--feauters">
                 <div class="works__col">
                     <div class="works__inner">
                         <h4 class="works__inner-title" >
@@ -149,8 +154,8 @@
 <section class="about">
     <div class="container">
         <header class="header__about">
-            <div class="header__wrapper">
-                <h2 class="container__title">Build for growth.</h2>
+            <div class="header__wrapper  header__wrapper--about">
+                <h2 class="container__title  container__title--about">Build for growth.</h2>
 
                 <nav class="about__nav">
                     <a class="nav__link-about" href="#">NFTs</a>
@@ -164,7 +169,7 @@
         </header>
 
         <div class="about__wrapper">
-            <div>
+            <div class="about__img">
                 <img src="images/photos/learn-more.png" alt="">
             </div>
             <div class="about__content">
@@ -217,7 +222,7 @@
                 <p class="team__text">
                     It's time to join the thousands of creators, artists, and developers using Solana.
                 </p>
-                <a class="btn  btn--default" href="#">Start building</a>
+                <a class="btn  btn--default  btn--team" href="#">Start building</a>
             </div>
         </div>
 
@@ -283,7 +288,7 @@
                         <a href="#">Newsletter</a>
                     </div>
                 </div>
-                <div class="footer__lng">
+                <div class="footer__col">
                     <img src="images/icons/lang-icon.png" alt="">
                     <a href="#">En</a>
                 </div>
